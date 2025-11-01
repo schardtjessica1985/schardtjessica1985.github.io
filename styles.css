@@ -14,7 +14,6 @@ header {
     text-align: center;
 }
 
-h2 {}
 
 content {
     background-color: rgb(194, 56, 102);
@@ -34,7 +33,3 @@ h1 {
     font-size: 50%;
 
 }
-
-h2 {
-    color: darkmagenta;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
