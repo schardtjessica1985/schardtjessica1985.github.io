@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: rgb(211, 86, 128)
+    color: lightseagreen
 }
 
 header {
@@ -15,8 +15,9 @@ header {
 }
 
 
+
 content {
-    background-color: rgb(194, 56, 102);
+    background-color: lightsalmon;
 }
 
 footer {
@@ -29,7 +30,40 @@ footer {
 
 h1 {
     color: rgb(53, 6, 101);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium',
+        'Arial Narrow',
+        Arial,
+        sans-serif;
     font-size: 50%;
+}
 
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* float: left; */
+    /* width: 20%; */
+    padding: 4px;
+    margin-right: 50px;
+    /* max-width: 1000px; */
+}
+
+
+
+
+/* Clear floats after image containers */
+/* .row::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+h2 {
+
+    color: lavender;
+    font-family: 'Franklin Gothic Medium',
+        'Arial Narrow',
+        Arial,
+        sans-serif;
+    font-size: 400%;
 }
